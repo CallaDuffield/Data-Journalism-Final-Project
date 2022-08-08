@@ -36,8 +36,8 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
   7) Repeat these steps with the sheet "2021," and lable the pivot table "2021 Fire by Counties".
   ![Sheet Used: Copy of 2016](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png) 
     
-    Fresno and Kern both had 12 wildfires in 2016 
+      Fresno and Kern both had 12 wildfires in 2016 
     
   ![Screen Shot 2022-08-08 at 2 27 23 AM](https://user-images.githubusercontent.com/109619716/183386139-539a79e0-886f-4222-8a87-b7415c3d01c4.png)
      
-     Riverside had 18 wildfires in 2021
+      Riverside had 18 wildfires in 2021
