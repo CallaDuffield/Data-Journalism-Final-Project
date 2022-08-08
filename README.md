@@ -2,7 +2,7 @@
 This repository documents my analysis of change in California's wildfire spread from 2016 to 2021 and Cal Fire's grant response.
 
 
-# Analysis 1: How many acres were burned by California wildfires in 2016 and 2021? What is the percent change between the two years?
+# Analysis 1: How many acres were burned by California wildfires in 2016 and 2021? 
 ## Data Analysis Process: 
   1) Select the "2021" sheet.
   2) Find the sum of the "ACRES" column by selecting it, clicking "data", and selecting "column stats." Scroll down to where "sum" is listed to find value.
@@ -16,6 +16,7 @@ This repository documents my analysis of change in California's wildfire spread 
      
     500,281 acres were burned by wildfires in California in 2016
      
+# Analysis 2: What is the percent change in acreage burned between the two years?    
 ## Data Analysis Process Continued:
 In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to subtract the sum in 2021 from the sum in 2016, then divide the result by the sum in 2016. Multiply the result by 100 to find the percent change in total wildfire acreage from 2016 to 2021.
   1) Input the 2016 value in cell A1, and input the 2021 value in cell B1. We will use these for our calculation.
@@ -28,7 +29,7 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
     California's yearly wildfire burn acreage rose 421.72% from 2016 to 2021.
 
 
-# Analysis 2: Which counties had the greatest number of wildfires in 2016 and 2021?
+# Analysis 3: Which counties had the greatest number of wildfires in 2016 and 2021?
 ## Data Analysis Process: 
   1) Pay attention to fires that spanned multiple counties. Duplicate sheet "2016".
   2) Sort rows alphabetically from A to Z by "COUNTIES" column. In row 32, El Dorado and Placer are listed in the same cell. Duplicate the row by inserting   a row above and pasting the data. Isolate El Dorado in one "COUNTIES" cell and Placer in the other, with the rest of the cells staying the same.
@@ -47,7 +48,7 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
     Riverside had 18 wildfires in 2021, the largest number.
     
     
-# Analysis 3: Which county recieved the most funding from Cal Fire grants in 2016 and 2021?
+# Analysis 4: Which county recieved the most funding from Cal Fire grants in 2016 and 2021?
 ## Data Analysis Process:
   1) From the "2016 Grants by County" sheet, create a pivot table entitled "2016 County Cal Fire Funding".
   2) Input "COUNTIES" into rows and "AMOUNT" into values. Summarize "AMOUNT" by SUM.
@@ -62,7 +63,7 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
 
     San Luis Obispo received $4,483,721.09  in grant funding from Cal Fire, the greatest sum of 2021.
 
-# Analysis 4: How has funding of counties through grants changed from 2016 to 2021?
+# Analysis 5: How has funding of counties through grants changed from 2016 to 2021?
 ## Data Analysis Process:
    In the "Calculations" sheet, use the (New-Old)/Old x 100 formula to subtract the sum of grant funding in 2021 from the sum in 2016, then divide the result by the sum in 2016. Multiply the result by 100 to find the percent change in grnt funding from 2016 to 2021.
   1) Input the 2016 value in cell A2, and input the 2021 value in cell B2. We will use these for our calculation.
@@ -73,3 +74,14 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
    ![Sheet Used: Calculations](https://user-images.githubusercontent.com/109619716/183440934-03356007-8dc0-4083-bed0-2d1018504f6c.png)
       
      Cal Fire's grant funding of counties rose 304.26% from 2016 to 2021.
+     
+ # Data Visualization
+ California wildfire distribution in 2016
+ ![California wildfire distribution in 2016](https://user-images.githubusercontent.com/109619716/183444032-61622a1c-9198-4f92-9afc-42e4ad443c76.png)
+ 
+ # Story Summary and Additional Sourcing
+As the basis for this project, Cal Fire provided the basic statistics on wildfires, and also led me to research general funds and grants. I am interested in digging more into the volunteer side of wildfire fighting, but It wasn’t available on the website. Therefore, a further source of information is Gabrielle Avina, the Deputy Director of Cooperative Fire Protection at Cal Fire. I can call at (707) 967-1402 or email her at Gabrielle.Avina@fire.ca.gov to ask specifically for data regarding volunteer firefighter force numbers and funding. While looking for an angle, I came across interesting information on how the California Conservation Corps are using inmates to fight fires, and further, how the number of available inmates is dwindling due to a number of factors. I chose instead to explore grant funding of counties by Cal Fire, but to pursue a story about the inmates in “correctional camps” at a time when wildfires are on the rise, I could contact the program’s press office at (916) 445-4950 or submit a request to the California Department of Corrections and Rehabilitation.
+
+
+
+ 
