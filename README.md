@@ -1,5 +1,7 @@
 # Data-Journalism-Final-Project
-This repository documents my analysis of change in California's wildfire spread from 2016 to 2021 and Cal Fire's funding and legislation response.
+This repository documents my analysis of change in California's wildfire spread from 2016 to 2021 and Cal Fire's grant response.
+
+
 # Analysis 1: How many acres were burned by California wildfires in 2016 and 2021? What is the percent change between the two years?
 ## Data Analysis Process: 
   1) Select the "2021" sheet.
@@ -26,20 +28,36 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
     California's yearly wildfire burn acreage rose 421.72% from 2016 to 2021.
 
 
-# Analysis 2: Which counties had the greatest and fewest total wildfires in 2016 and 2021?
+# Analysis 2: Which counties had the greatest number of wildfires in 2016 and 2021?
 ## Data Analysis Process: 
   1) Pay attention to fires that spanned multiple counties. Duplicate sheet "2016".
   2) Sort rows alphabetically from A to Z by "COUNTIES" column. In row 32, El Dorado and Placer are listed in the same cell. Duplicate the row by inserting   a row above and pasting the data. Isolate El Dorado in one "COUNTIES" cell and Placer in the other, with the rest of the cells staying the same.
   3) Do the same for sheet "2021". Duplicate it, and sort rows aphabetically from A to Z by "COUNTIES" column. In row 9, Butte, Plumas, Shasta, Lassen and      Tehama are all listed in the same cell. Repeat the process of step 2, and isolate all 5 counties in seperate rows. Do the same for the clustered            counties in row 23, 89, 92, 116, 158 and 169.
   4) Make a pivot table with the sheet "2016" and lable it "2016 Fire by Counties".
   5) Insert "COUNTIES" into rows and "ACRES" into values. Summarize "ACRES" by COUNTA.
-  6) Filter "ACRES" from Z to A to find the county with the greatest number of wildfires. Then filter from A to Z to find the county with the fewest number      of wildfires.
+  6) Filter "ACRES" from Z to A to find the county with the greatest number of wildfires. 
   7) Repeat these steps with the sheet "2021," and lable the pivot table "2021 Fire by Counties".
   
   ![Sheet Used: Copy of 2016](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png) 
     
-    Fresno and Kern both had 12 wildfires in 2016 
+    Fresno and Kern both had 12 wildfires in 2016, the largest number.
     
-  ![Screen Shot 2022-08-08 at 2 27 23 AM](https://user-images.githubusercontent.com/109619716/183386139-539a79e0-886f-4222-8a87-b7415c3d01c4.png)
+  ![Sheet Used: Copy of 2021](https://user-images.githubusercontent.com/109619716/183386139-539a79e0-886f-4222-8a87-b7415c3d01c4.png)
      
-    Riverside had 18 wildfires in 2021
+    Riverside had 18 wildfires in 2021, the largest number.
+    
+    
+# Analysis 3: Which county recieved the most funding from Cal Fire grants in 2016 and 2021?
+## Data Analysis Process:
+  1) From the "2016 Grants by County" sheet, create a pivot table entitled "2016 County Cal Fire Funding".
+  2) Input "COUNTIES" into rows and "AMOUNT" into values. Summarize "AMOUNT" by SUM.
+  3) Filter data from Z to A by column B to find the county that recieved the most funding from Cal Fire grants in 2016
+
+  ![Sheet Used: 2016 Grants by County](https://user-images.githubusercontent.com/109619716/183435498-5a0cf251-6083-4db0-b366-9d2cdd7cbece.png)
+  
+    Fresno had $1,000,000 in grant funding from Cal Fire, the greatest sum of 2016.
+  
+
+    
+
+    
