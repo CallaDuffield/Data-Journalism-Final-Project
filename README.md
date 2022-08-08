@@ -20,7 +20,6 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
   2) In cell C1, set up the function using the formula =SUM(B1-A1).
   3) In cell D1, divide the output by A1 using the formula =DIVIDE(C1,A1).
   4) In cell E1, multiply the result by 100 to find the percent change by using the formula =MULTIPLY(D1, 100).
-  5) 
   ![Sheet Used: Calculations](https://user-images.githubusercontent.com/109619716/183372744-5de74448-7154-4f9f-af3f-d6432ed42697.png)
   
      California's yearly wildfire burn acreage rose 421.72% from 2016 to 2021.
