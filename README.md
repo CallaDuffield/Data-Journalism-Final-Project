@@ -38,11 +38,11 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
   6) Filter "ACRES" from Z to A to find the county with the greatest number of wildfires. 
   7) Repeat these steps with the sheet "2021," and lable the pivot table "2021 Fire by Counties".
   
-  ![Sheet Used: Copy of 2016](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png) 
+  ![Sheet Used: 2016 Fire by Counties](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png) 
     
     Fresno and Kern both had 12 wildfires in 2016, the largest number.
     
-  ![Sheet Used: Copy of 2021](https://user-images.githubusercontent.com/109619716/183386139-539a79e0-886f-4222-8a87-b7415c3d01c4.png)
+  ![Sheet Used: 2021 Fire by Counties](https://user-images.githubusercontent.com/109619716/183386139-539a79e0-886f-4222-8a87-b7415c3d01c4.png)
      
     Riverside had 18 wildfires in 2021, the largest number.
     
@@ -54,11 +54,11 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
   3) Filter data from Z to A by column B to find the county that recieved the most funding from Cal Fire grants in 2016. 
   4) Repeat these steps after making a pivot table for the "2021 Grats by County" sheet, and entitle it "2021 County Cal Fire Funding" to find the county        with the greatest grant funding from Cal Fire in 2021.
 
-  ![Sheet Used: 2016 Grants by County](https://user-images.githubusercontent.com/109619716/183435498-5a0cf251-6083-4db0-b366-9d2cdd7cbece.png)
+  ![Sheet Used: 2016 County Cal Fire Funding](https://user-images.githubusercontent.com/109619716/183435498-5a0cf251-6083-4db0-b366-9d2cdd7cbece.png)
   
     Fresno received $1,000,000 in grant funding from Cal Fire, the greatest sum of 2016.
     
-   ![Sheet Used: 2021 Grants by County](https://user-images.githubusercontent.com/109619716/183437483-50de81bd-2d9c-47d3-a9b3-d6ca65942035.png)
+   ![Sheet Used: 2021 County Cal Fire Funding](https://user-images.githubusercontent.com/109619716/183437483-50de81bd-2d9c-47d3-a9b3-d6ca65942035.png)
 
     San Luis Obispo received $4,483,721.09  in grant funding from Cal Fire, the greatest sum of 2021.
 
@@ -70,3 +70,6 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
   3) In cell D2, divide the output by A1 using the formula =DIVIDE(C2,A2).
   4) In cell E2, multiply the result by 100 to find the percent change by using the formula =MULTIPLY(D1, 100).
     
+   ![Sheet Used: Calculations](https://user-images.githubusercontent.com/109619716/183440934-03356007-8dc0-4083-bed0-2d1018504f6c.png)
+      
+     Cal Fire's grant funding of counties rose 304.26% from 2016 to 2021.
