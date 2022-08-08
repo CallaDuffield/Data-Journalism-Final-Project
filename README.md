@@ -8,11 +8,11 @@ This repository documents my analysis of change in California's wildfire spread 
 
   ![Sheet Used: 2021](https://user-images.githubusercontent.com/109619716/183370110-8155d6a1-f98f-4f9f-b070-87b2ef294efa.png)
      
-     2,610,049 acres were burned by wildfires in California in 2021
+    2,610,049 acres were burned by wildfires in California in 2021
      
   ![Sheet Used; 2016](https://user-images.githubusercontent.com/109619716/183372881-33c9ba6f-3a03-466b-8e70-745327405d40.png)
      
-     500,281 acres were burned by wildfires in California in 2016
+    500,281 acres were burned by wildfires in California in 2016
      
 ## Data Analysis Process Continued:
 In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to subtract the sum in 2021 from the sum in 2016, then divide the result by the sum in 2016. Multiply the result by 100 to find the percent change in total wildfire acreage from 2016 to 2021.
@@ -20,9 +20,10 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
   2) In cell C1, set up the function using the formula =SUM(B1-A1).
   3) In cell D1, divide the output by A1 using the formula =DIVIDE(C1,A1).
   4) In cell E1, multiply the result by 100 to find the percent change by using the formula =MULTIPLY(D1, 100).
+  
   ![Sheet Used: Calculations](https://user-images.githubusercontent.com/109619716/183372744-5de74448-7154-4f9f-af3f-d6432ed42697.png)
   
-     California's yearly wildfire burn acreage rose 421.72% from 2016 to 2021.
+    California's yearly wildfire burn acreage rose 421.72% from 2016 to 2021.
 
 
 # Analysis 2: Which counties had the greatest and fewest total wildfires in 2016 and 2021?
@@ -36,8 +37,8 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
   7) Repeat these steps with the sheet "2021," and lable the pivot table "2021 Fire by Counties".
   ![Sheet Used: Copy of 2016](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png) 
     
-      Fresno and Kern both had 12 wildfires in 2016 
+    Fresno and Kern both had 12 wildfires in 2016 
     
   ![Screen Shot 2022-08-08 at 2 27 23 AM](https://user-images.githubusercontent.com/109619716/183386139-539a79e0-886f-4222-8a87-b7415c3d01c4.png)
      
-      Riverside had 18 wildfires in 2021
+    Riverside had 18 wildfires in 2021
