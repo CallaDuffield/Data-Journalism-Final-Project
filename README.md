@@ -28,11 +28,11 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
 # Analysis 2: Which counties had the greatest and fewest total wildfires in 2016 and 2021?
 ## Data Analysis Process: 
   1) Pay attention to fires that spanned multiple counties. Duplicate sheet "2016".
-  2) Sort rows alphabetically from A to Z by "COUNTIES" column. In row 32, El Dorado and Placer are listed in the same cell. Duplicate the row by inserting a row above and pasting the data. Isolate El Dorado in one "COUNTIES" cell and Placer in the other, with the rest of the cells staying the same.
-  3) Do the same for sheet "2021". Duplicate it, and sort rows aphabetically from A to Z by "COUNTIES" column. In row 9, Butte, Plumas, Shasta, Lassen and Tehama are all listed in the same cell. Repeat the process of step 2, and isolate all 5 counties in seperate rows. Do the same for the clustered counties in row 23, 89, 92, 116, 158 and 169.
-   4) Make a pivot table with the sheet "2016" and lable it "2016 Fire by Counties".
+  2) Sort rows alphabetically from A to Z by "COUNTIES" column. In row 32, El Dorado and Placer are listed in the same cell. Duplicate the row by inserting   a row above and pasting the data. Isolate El Dorado in one "COUNTIES" cell and Placer in the other, with the rest of the cells staying the same.
+  3) Do the same for sheet "2021". Duplicate it, and sort rows aphabetically from A to Z by "COUNTIES" column. In row 9, Butte, Plumas, Shasta, Lassen and      Tehama are all listed in the same cell. Repeat the process of step 2, and isolate all 5 counties in seperate rows. Do the same for the clustered            counties in row 23, 89, 92, 116, 158 and 169.
+  4) Make a pivot table with the sheet "2016" and lable it "2016 Fire by Counties".
   5) Insert "COUNTIES" into rows and "ACRES" into values. Summarize "ACRES" by COUNTA.
-  6) Filter "ACRES" from Z to A to find the county with the greatest number of wildfires. Then filter from A to Z to find the county with the fewest number of wildfires.
+  6) Filter "ACRES" from Z to A to find the county with the greatest number of wildfires. Then filter from A to Z to find the county with the fewest number      of wildfires.
   7) Repeat these steps with the sheet "2021," and lable the pivot table "2021 Fire by Counties".
   ![Sheet Used: Copy of 2016](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png) 
     
