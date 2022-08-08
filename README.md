@@ -20,6 +20,7 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
 ![Sheet Used: Calculations](https://user-images.githubusercontent.com/109619716/183372744-5de74448-7154-4f9f-af3f-d6432ed42697.png)
 ### California's yearly wildfire burn acreage rose 421.72% from 2016 to 2021.
 
+
 # Analysis 2: Which counties had the greatest total wildfire burn acreage in 2016 and 2021?
 ## Data Analysis Process: 
 1) Pay attention to fires that spanned multiple counties. Duplicate sheet "2016".
@@ -31,6 +32,7 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
 7) Repeat these steps with the sheet "2021," and lable the pivot table "2021 Fire by Counties".
 ![Sheet Used: Copy of 2016](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png)
 ### Fresno and Kern both had 12 wildfires in 2016
+
 
 ![Sheet Used: Copy of 2021](https://user-images.githubusercontent.com/109619716/183383092-c66f95b4-180c-41ad-90f3-51bdbf81e3d1.png)
 ### Alpine had 18 wildfires in 2021
