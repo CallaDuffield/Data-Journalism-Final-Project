@@ -7,6 +7,7 @@ This repository documents my analysis of change in California's wildfire spread 
 3) Replicate this process with the "2016" sheet.
 ![Sheet Used: 2021](https://user-images.githubusercontent.com/109619716/183370110-8155d6a1-f98f-4f9f-b070-87b2ef294efa.png)
 ### 2,610,049 acres were burned by wildfires in California in 2021
+
 ![Sheet Used; 2016](https://user-images.githubusercontent.com/109619716/183372881-33c9ba6f-3a03-466b-8e70-745327405d40.png)
 ### 500,281 acres were burned by wildfires in California in 2016
 
