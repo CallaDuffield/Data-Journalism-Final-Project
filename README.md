@@ -34,10 +34,10 @@ This repository documents my analysis of change in California's wildfire spread 
   ![Sheet Used: 2020-2021 Fire Causes by County ](https://user-images.githubusercontent.com/109619716/183580701-e359fd3b-fd99-464d-9a0e-b60166ff571a.png)
     Riverside, El Dorado and Shasta were the counties with the greatest number of total wildfires.
 ## Data Analysis Process Continued:
-   1) To find the biggest causes of wildfires in California in 2020-2021, make a new row at the         bottom of the data and title it "Biggest Causes".
+   1) To find the biggest causes of wildfires in California in 2020-2021, make a new row at the bottom of the data and title it "Biggest Causes".
    2) Use the equation =SUM(B2:B53) for all columns.
-  ![Sheet Used: 2020-2021 Fire Causes by County ](https://user-images.githubusercontent.com/109619716/183583975-caa914bb-cc82-4efa-8311-dff46612b61e.png)
-    Aside from undetermined causes, Debris Burning caused the greatest number of wildfires at 579, followed by Vehicles at 449 and Equiptment use at 381.
+   ![Sheet Used: 2020-2021 Fire Causes by County ](https://user-images.githubusercontent.com/109619716/183583975-caa914bb-cc82-4efa-8311-dff46612b61e.png)
+   ### Aside from undetermined causes, Debris Burning caused the greatest number of wildfires at 579, followed by Vehicles at 449 and Equiptment use at            381.
     
     
     
@@ -47,23 +47,26 @@ This repository documents my analysis of change in California's wildfire spread 
   1) From the "2020-2021 CAL FIRE Fire Prevention Grant Awards" sheet, create a pivot table entitled "2020 Grants by County".
   2) Input "County" into rows and "Grant Amount" into values. Summarize "Grant Amount" by SUM.
   3) Filter data from Z to A by column B to find the counties that recieved the most funding from CAL FIRE Fire Prevention Grants in 2020. 
-![Sheet Used: 2020 Grants by County](https://user-images.githubusercontent.com/109619716/183597755-0cfa5536-fb39-4d60-96c3-8bd37d823e67.png)
-       Sacramento recieved the most grant funding in wildfire prevention at nearly $14 million, followed by Lassen at over $9 million.
+  
+  ![Sheet Used: 2020 Grants by County](https://user-images.githubusercontent.com/109619716/183597755-0cfa5536-fb39-4d60-96c3-8bd37d823e67.png)
+  ### Sacramento recieved the most grant funding in wildfire prevention at nearly $14 million, followed by Lassen at over $9 million.
 
     
 
 # Analysis 5: How has funding of counties through grants changed from 2016 to 2021?
 ## Data Analysis Process:
-   In the "Calculations" sheet, use the (New-Old)/Old x 100 formula to subtract the sum of grant funding in 2021 from the sum in 2016, then divide the result by the sum in 2016. Multiply the result by 100 to find the percent change in grnt funding from 2016 to 2021.
-  1) Input the 2016 value in cell A2, and input the 2021 value in cell B2. We will use these for our calculation.
-  2) In cell C2, set up the function using the formula =SUM(B2-A2).
-  3) In cell D2, divide the output by A1 using the formula =DIVIDE(C2,A2).
-  4) In cell E2, multiply the result by 100 to find the percent change by using the formula =MULTIPLY(D1, 100).
-    
-   ![Sheet Used: Calculations](https://user-images.githubusercontent.com/109619716/183440934-03356007-8dc0-4083-bed0-2d1018504f6c.png)
-      
-     Cal Fire's grant funding of counties rose 304.26% from 2016 to 2021.
-     
+  1) In a new sheet called "Fires and Funding," paste both columns from the sheet "2020 Grants by County" to columns A and B. 
+  2) In the same sheet, paste column A, "County," and column N, "Total by County" from "2020-2021 Fire Causes by County" in columns D and E respectively.        Don't include row 54, "Biggest Causes." Rename "Total by County" to "Total Fires by County".
+  3) Bold and Freeze the first row.
+  4) Trim white space through "data cleanup" for column E, "Total Fires by County" so that the VLOOKUP equation works.
+  5) Column C should be blank. Entitle it "Total Fires". Use the VLOOKUP equation =VLOOKUP(A2, $D$2:$E$53, 2, FALSE) and apply it to the whole column to combine the tables. There should be "#N/A" values because not all counties awarded grants had wildfires in 2020. Replace them with "0".
+  6) Copy column C and paste values only in the same place. Then, delete columns D and E.
+  7) Sort the data Z to A by SUM of Grant Amount. Keep in mind that the only wildfires totaled are those with 300+ acreage.
+   
+![Sheet Used: Fires and Funding](https://user-images.githubusercontent.com/109619716/183605503-97c3b9d7-cd2c-44a5-bf62-d12610ff2bc5.png)
+
+![Sheet Used: Fires and Funding](https://user-images.githubusercontent.com/109619716/183605530-752da942-f4d8-4fa4-a3e2-7bd343682325.png)
+### 
  # Data Visualization
  California wildfire distribution in 2016
 
