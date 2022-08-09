@@ -47,7 +47,9 @@ This repository documents my analysis of change in California's wildfire spread 
   1) From the "2020-2021 CAL FIRE Fire Prevention Grant Awards" sheet, create a pivot table entitled "2020 Grants by County".
   2) Input "County" into rows and "Grant Amount" into values. Summarize "Grant Amount" by SUM.
   3) Filter data from Z to A by column B to find the counties that recieved the most funding from CAL FIRE Fire Prevention Grants in 2020. 
-![Sheet Used: 2020 Grants by County](https://user-images.githubusercontent.com/109619716/183595878-14779b45-9ae1-46f7-b3f0-bbcbf4947f28.png)
+![Sheet Used: 2020 Grants by County](https://user-images.githubusercontent.com/109619716/183597755-0cfa5536-fb39-4d60-96c3-8bd37d823e67.png)
+       Sacramento recieved the most grant funding in wildfire prevention at nearly $14 million, followed by Lassen at over $9 million.
+
     
 
 # Analysis 5: How has funding of counties through grants changed from 2016 to 2021?
