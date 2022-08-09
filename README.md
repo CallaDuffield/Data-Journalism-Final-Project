@@ -1,14 +1,19 @@
 # Data-Journalism-Final-Project
-This repository documents my analysis of change in California's wildfire spread from 2016 to 2021 and Cal Fire's grant response.
+This repository documents my analysis of change in California's wildfire spread and the California Department of Forestry and Fire Protection's (CAL FIRE) response during the five year period between 2017 to 2021. In this document I will broadly examine the relationship between fire damage and expenditures, and take a closer look at resource response to turbulent wildfire seasons.
 
 
-# Analysis 1: How many acres were burned by California wildfires in 2016 and 2021? 
+# Analysis 1: The Big Picture
+    How have CAL FIRE's expenditures changed from 2017 to 2021?
 ## Data Analysis Process: 
-  1) Select the "2021" sheet.
-  2) Find the sum of the "ACRES" column by selecting it, clicking "data", and selecting "column stats." Scroll down to where "sum" is listed to find value.
-  3) Replicate this process with the "2016" sheet.
+  1) Select the "CAL FIRE Stats" sheet.
+  2) Calculate the percent change in expenditures between years by using the following formulas:
+  3)    =SUM(B3-B2)
+  4)    =DIVIDE(E3, B2)
+  5) Do the same calculations but with values in rows three through six.
+  ![Sheet used: CAL FIRE Stats](https://user-images.githubusercontent.com/109619716/183568053-0c35e785-97cf-40e3-bf88-3bec5d5b1445.png)
 
-  ![Sheet Used: 2021](https://user-images.githubusercontent.com/109619716/183370110-8155d6a1-f98f-4f9f-b070-87b2ef294efa.png)
+
+  
      
     2,610,049 acres were burned by wildfires in California in 2021
      
@@ -77,10 +82,10 @@ In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to sub
      
  # Data Visualization
  California wildfire distribution in 2016
- ![California wildfire distribution in 2016](https://user-images.githubusercontent.com/109619716/183444032-61622a1c-9198-4f92-9afc-42e4ad443c76.png)
+
  
  # Story Summary and Additional Sourcing
-As the basis for this project, Cal Fire provided the basic statistics on wildfires, and also led me to research general funds and grants. I am interested in digging more into the volunteer side of wildfire fighting, but It wasn’t available on the website. Therefore, a further source of information is Gabrielle Avina, the Deputy Director of Cooperative Fire Protection at Cal Fire. I can call at (707) 967-1402 or email her at Gabrielle.Avina@fire.ca.gov to ask specifically for data regarding volunteer firefighter force numbers and funding. While looking for an angle, I came across interesting information on how the California Conservation Corps are using inmates to fight fires, and further, how the number of available inmates is dwindling due to a number of factors. I chose instead to explore grant funding of counties by Cal Fire, but to pursue a story about the inmates in “correctional camps” at a time when wildfires are on the rise, I could contact the program’s press office at (916) 445-4950 or submit a request to the California Department of Corrections and Rehabilitation.
+
 
 
 
