@@ -2,15 +2,27 @@
 This repository documents my analysis of change in California's wildfire spread and the California Department of Forestry and Fire Protection's (CAL FIRE) response during the five year period between 2017 to 2021. In this document I will broadly examine the relationship between fire damage and expenditures, and take a closer look at resource response to turbulent wildfire seasons.
 
 
-# Analysis 1: The Big Picture
+# Analysis 1: Money
     How have CAL FIRE's expenditures changed from 2017 to 2021?
 ## Data Analysis Process: 
   1) Select the "CAL FIRE Stats" sheet.
   2) Calculate the percent change in expenditures between years by using the following formulas:
   3)    =SUM(B3-B2)
   4)    =DIVIDE(E3, B2)
-  5) Do the same calculations but with values in rows three through six.
+  5) Format column F, "% Expenditure Change" by percent. Do the same calculations but with values in rows three through six.
   ![Sheet used: CAL FIRE Stats](https://user-images.githubusercontent.com/109619716/183568053-0c35e785-97cf-40e3-bf88-3bec5d5b1445.png)
+  ### In the fiscal year 2020-2021, CAL FIRE expenditures rose 154.70% from the previous year. Let's take a look at fires by year to draw some conclusions.
+  
+# Analysis 2: Fire
+    How has California wildfire acreage changed from 2017 to 2021?
+## Data Analysis Process: 
+  1) Select the "CAL FIRE Stats" sheet.
+  2) Calculate the percent change in acreage between years by using the following formulas:
+  3)    =SUM(D3-D2)
+  4)    =DIVIDE(G3, D2)
+  5) Format column H, "% Acreage Change" by percent. Do the same calculations but with values in rows three through six.
+  ![Sheet used: CAL FIRE Stats](https://user-images.githubusercontent.com/109619716/183571268-2d34912a-037f-4f30-8f2f-1586a0552def.png)
+  ### In the fiscal year 2020-2021, California wildfire acreage rose 1452.33%% from the previous year. Let's zoom in on the fiscal year 2020-2021.
 
 
   
