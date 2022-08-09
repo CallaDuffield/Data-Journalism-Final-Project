@@ -1,5 +1,5 @@
 # Data-Journalism-Final-Project
-This repository documents my analysis of change in California's wildfire spread and the California Department of Forestry and Fire Protection's (CAL FIRE) response during the five year period between 2017 to 2021. In this document I will broadly examine the relationship between fire damage and expenditures, and take a closer look at resource response to turbulent wildfire seasons. I mainly used statistics from <https://www.fire.ca.gov/stats-events/>.
+This repository documents my analysis of change in California's wildfire spread and the California Department of Forestry and Fire Protection's (CAL FIRE) budget response during the five year period between 2017 to 2021. In this document I will broadly examine the statistical relationship between wildfire damage and communities, and take a closer look at causes and grant funding response to the turbulent wildfire season of 2020. I mainly used statistics from <https://www.fire.ca.gov/stats-events/>.
 
 
 # Analysis 1: Money
@@ -58,20 +58,12 @@ This repository documents my analysis of change in California's wildfire spread 
     Riverside had 18 wildfires in 2021, the largest number.
     
     
-# Analysis 4: Which county recieved the most funding from Cal Fire grants in 2016 and 2021?
+# Analysis 4: Which county recieved the most funding from CAL FIRE grants in 2020?
 ## Data Analysis Process:
-  1) From the "2016 Grants by County" sheet, create a pivot table entitled "2016 County Cal Fire Funding".
-  2) Input "COUNTIES" into rows and "AMOUNT" into values. Summarize "AMOUNT" by SUM.
-  3) Filter data from Z to A by column B to find the county that recieved the most funding from Cal Fire grants in 2016. 
-  4) Repeat these steps after making a pivot table for the "2021 Grats by County" sheet, and entitle it "2021 County Cal Fire Funding" to find the county        with the greatest grant funding from Cal Fire in 2021.
-
-  ![Sheet Used: 2016 County Cal Fire Funding](https://user-images.githubusercontent.com/109619716/183435498-5a0cf251-6083-4db0-b366-9d2cdd7cbece.png)
-  
-    Fresno received $1,000,000 in grant funding from Cal Fire, the greatest sum of 2016.
-    
-   ![Sheet Used: 2021 County Cal Fire Funding](https://user-images.githubusercontent.com/109619716/183437483-50de81bd-2d9c-47d3-a9b3-d6ca65942035.png)
-
-    San Luis Obispo received $4,483,721.09  in grant funding from Cal Fire, the greatest sum of 2021.
+  1) From the "2020-2021 CAL FIRE Fire Prevention Grant Awards" sheet, create a pivot table entitled "2020 Grants by County".
+  2) Input "County" into rows and "Grant Amount" into values. Summarize "Grant Amount" by SUM.
+  3) Filter data from Z to A by column B to find the counties that recieved the most funding from CAL FIRE Fire Prevention Grants in 2020. 
+![Sheet Used: 2020 Grants by County](https://user-images.githubusercontent.com/109619716/183595878-14779b45-9ae1-46f7-b3f0-bbcbf4947f28.png)
 
 # Analysis 5: How has funding of counties through grants changed from 2016 to 2021?
 ## Data Analysis Process:
@@ -90,6 +82,7 @@ This repository documents my analysis of change in California's wildfire spread 
 
  
  # Story Summary and Additional Sourcing
+ The data I compiled represents many communities in California that are impacted by wildfires.
 
 
 
