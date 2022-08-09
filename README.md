@@ -48,6 +48,7 @@ This repository documents my analysis of change in California's wildfire spread 
   2) Input "County" into rows and "Grant Amount" into values. Summarize "Grant Amount" by SUM.
   3) Filter data from Z to A by column B to find the counties that recieved the most funding from CAL FIRE Fire Prevention Grants in 2020. 
 ![Sheet Used: 2020 Grants by County](https://user-images.githubusercontent.com/109619716/183595878-14779b45-9ae1-46f7-b3f0-bbcbf4947f28.png)
+    
 
 # Analysis 5: How has funding of counties through grants changed from 2016 to 2021?
 ## Data Analysis Process:
