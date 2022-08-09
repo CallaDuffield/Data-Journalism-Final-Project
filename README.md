@@ -23,30 +23,22 @@ This repository documents my analysis of change in California's wildfire spread 
   5) Format column H, "% Acreage Change" by percent. Do the same calculations but with values in rows three through six.
   ![Sheet used: CAL FIRE Stats](https://user-images.githubusercontent.com/109619716/183571268-2d34912a-037f-4f30-8f2f-1586a0552def.png)
   ### In the fiscal year 2020-2021, California wildfire acreage rose 1452.33%% from the previous year. Let's zoom in on the fiscal year 2020-2021.
-
-
   
-     
-    2,610,049 acres were burned by wildfires in California in 2021
-     
-  ![Sheet Used; 2016](https://user-images.githubusercontent.com/109619716/183372881-33c9ba6f-3a03-466b-8e70-745327405d40.png)
-     
-    500,281 acres were burned by wildfires in California in 2016
-     
-# Analysis 2: What is the percent change in acreage burned between the two years?    
+  
+# Analysis 3: Causes
+    What were the top causes of large (300+ acres) California wildfires in 2020-2021?
+## Data Analysis Process:
+   1) In the sheet called "2020-2021 Fire Causes by County," create a column N entitled "Total by County."
+   2) Find the sum of fires by county with the equation =SUM(B2:M2), and apply it to all rows.
+   3) Sort the sheet from Z to A by column N to find the counties with the most wildfires in 2020.
+  ![Sheet Used: 2020-2021 Fire Causes by County ](https://user-images.githubusercontent.com/109619716/183580701-e359fd3b-fd99-464d-9a0e-b60166ff571a.png)
+    Riverside, El Dorado and Shasta were the counties with the greatest number of total wildfires.
 ## Data Analysis Process Continued:
-In a new sheet called "Calculations", use the (New-Old)/Old x 100 formula to subtract the sum in 2021 from the sum in 2016, then divide the result by the sum in 2016. Multiply the result by 100 to find the percent change in total wildfire acreage from 2016 to 2021.
-  1) Input the 2016 value in cell A1, and input the 2021 value in cell B1. We will use these for our calculation.
-  2) In cell C1, set up the function using the formula =SUM(B1-A1).
-  3) In cell D1, divide the output by A1 using the formula =DIVIDE(C1,A1).
-  4) In cell E1, multiply the result by 100 to find the percent change by using the formula =MULTIPLY(D1, 100).
-  
-  ![Sheet Used: Calculations](https://user-images.githubusercontent.com/109619716/183372744-5de74448-7154-4f9f-af3f-d6432ed42697.png)
-  
-    California's yearly wildfire burn acreage rose 421.72% from 2016 to 2021.
+   1) To find the biggest causes of wildfires in California in 2020-2021, make a new row at the         bottom of the data and title it "Biggest Causes".
+2) Use the equation =SUM(B2:B53) for all columns.
+  ![Sheet Used: 2020-2021 Fire Causes by County ](https://user-images.githubusercontent.com/109619716/183583975-caa914bb-cc82-4efa-8311-dff46612b61e.png)
 
-
-# Analysis 3: Which counties had the greatest number of wildfires in 2016 and 2021?
+# Analysis 4: Resources
 ## Data Analysis Process: 
   1) Pay attention to fires that spanned multiple counties. Duplicate sheet "2016".
   2) Sort rows alphabetically from A to Z by "COUNTIES" column. In row 32, El Dorado and Placer are listed in the same cell. Duplicate the row by inserting   a row above and pasting the data. Isolate El Dorado in one "COUNTIES" cell and Placer in the other, with the rest of the cells staying the same.
