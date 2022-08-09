@@ -1,5 +1,5 @@
 # Data-Journalism-Final-Project
-This repository documents my analysis of change in California's wildfire spread and the California Department of Forestry and Fire Protection's (CAL FIRE) response during the five year period between 2017 to 2021. In this document I will broadly examine the relationship between fire damage and expenditures, and take a closer look at resource response to turbulent wildfire seasons.
+This repository documents my analysis of change in California's wildfire spread and the California Department of Forestry and Fire Protection's (CAL FIRE) response during the five year period between 2017 to 2021. In this document I will broadly examine the relationship between fire damage and expenditures, and take a closer look at resource response to turbulent wildfire seasons. I mainly used statistics from <https://www.fire.ca.gov/stats-events/>.
 
 
 # Analysis 1: Money
@@ -35,9 +35,10 @@ This repository documents my analysis of change in California's wildfire spread 
     Riverside, El Dorado and Shasta were the counties with the greatest number of total wildfires.
 ## Data Analysis Process Continued:
    1) To find the biggest causes of wildfires in California in 2020-2021, make a new row at the         bottom of the data and title it "Biggest Causes".
-2) Use the equation =SUM(B2:B53) for all columns.
+   2) Use the equation =SUM(B2:B53) for all columns.
   ![Sheet Used: 2020-2021 Fire Causes by County ](https://user-images.githubusercontent.com/109619716/183583975-caa914bb-cc82-4efa-8311-dff46612b61e.png)
-
+    Aside from undetermined causes, Debris Burning caused the greatest number of wildfires at 579, followed by Vehicles at 449 and Equiptment use at 381.
+    
 # Analysis 4: Resources
 ## Data Analysis Process: 
   1) Pay attention to fires that spanned multiple counties. Duplicate sheet "2016".
