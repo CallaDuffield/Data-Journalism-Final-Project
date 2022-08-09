@@ -53,7 +53,7 @@ This repository documents my analysis of change in California's wildfire spread 
 
     
 
-# Analysis 5: How has funding of counties through grants changed from 2016 to 2021?
+# Analysis 5: Mapping
 ## Data Analysis Process:
   1) In a new sheet called "Fires and Funding," paste both columns from the sheet "2020 Grants by County" to columns A and B. 
   2) In the same sheet, paste column A, "County," and column N, "Total by County" from "2020-2021 Fire Causes by County" in columns D and E respectively.        Don't include row 54, "Biggest Causes." Rename "Total by County" to "Total Fires by County".
@@ -66,7 +66,8 @@ This repository documents my analysis of change in California's wildfire spread 
 ![Sheet Used: Fires and Funding](https://user-images.githubusercontent.com/109619716/183605503-97c3b9d7-cd2c-44a5-bf62-d12610ff2bc5.png)
 
 ![Sheet Used: Fires and Funding](https://user-images.githubusercontent.com/109619716/183605530-752da942-f4d8-4fa4-a3e2-7bd343682325.png)
-### 
+    
+ 
  # Data Visualization
  California wildfire distribution in 2016
 
