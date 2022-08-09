@@ -39,26 +39,10 @@ This repository documents my analysis of change in California's wildfire spread 
   ![Sheet Used: 2020-2021 Fire Causes by County ](https://user-images.githubusercontent.com/109619716/183583975-caa914bb-cc82-4efa-8311-dff46612b61e.png)
     Aside from undetermined causes, Debris Burning caused the greatest number of wildfires at 579, followed by Vehicles at 449 and Equiptment use at 381.
     
-# Analysis 4: Resources
-## Data Analysis Process: 
-  1) Pay attention to fires that spanned multiple counties. Duplicate sheet "2016".
-  2) Sort rows alphabetically from A to Z by "COUNTIES" column. In row 32, El Dorado and Placer are listed in the same cell. Duplicate the row by inserting   a row above and pasting the data. Isolate El Dorado in one "COUNTIES" cell and Placer in the other, with the rest of the cells staying the same.
-  3) Do the same for sheet "2021". Duplicate it, and sort rows aphabetically from A to Z by "COUNTIES" column. In row 9, Butte, Plumas, Shasta, Lassen and      Tehama are all listed in the same cell. Repeat the process of step 2, and isolate all 5 counties in seperate rows. Do the same for the clustered            counties in row 23, 89, 92, 116, 158 and 169.
-  4) Make a pivot table with the sheet "2016" and lable it "2016 Fire by Counties".
-  5) Insert "COUNTIES" into rows and "ACRES" into values. Summarize "ACRES" by COUNTA.
-  6) Filter "ACRES" from Z to A to find the county with the greatest number of wildfires. 
-  7) Repeat these steps with the sheet "2021," and lable the pivot table "2021 Fire by Counties".
-  
-  ![Sheet Used: 2016 Fire by Counties](https://user-images.githubusercontent.com/109619716/183381227-030e470f-834e-43db-9469-43a1ae559002.png) 
-    
-    Fresno and Kern both had 12 wildfires in 2016, the largest number.
-    
-  ![Sheet Used: 2021 Fire by Counties](https://user-images.githubusercontent.com/109619716/183386139-539a79e0-886f-4222-8a87-b7415c3d01c4.png)
-     
-    Riverside had 18 wildfires in 2021, the largest number.
     
     
-# Analysis 4: Which county recieved the most funding from CAL FIRE grants in 2020?
+# Analysis 4: Grants
+    Which county recieved the most funding from CAL FIRE grants in 2020?
 ## Data Analysis Process:
   1) From the "2020-2021 CAL FIRE Fire Prevention Grant Awards" sheet, create a pivot table entitled "2020 Grants by County".
   2) Input "County" into rows and "Grant Amount" into values. Summarize "Grant Amount" by SUM.
@@ -82,7 +66,7 @@ This repository documents my analysis of change in California's wildfire spread 
 
  
  # Story Summary and Additional Sourcing
- The data I compiled represents many communities in California that are impacted by wildfires.
+ The data I compiled represents many communities in California that are impacted by wildfires. But how are these grants impacting individuals? Are the resources being used efficiently and effectively on the county level? Do the grants target the causes of wildfires that most need addresing? For further information on grants, I can comb through the grant project descriptions <https://www.fire.ca.gov/media/ymoohf13/final_fy-2020-21-cci-fire-prevention-grant-recipient-list-accessible-10-18-2021.pdf> and compare the goals with wildfire safety and education needs in each county.
 
 
 
